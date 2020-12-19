@@ -3,3 +3,7 @@
 //
 
 #include "Car.h"
+
+void lineTrace(){
+  Serial.println("Hello World!");
+}

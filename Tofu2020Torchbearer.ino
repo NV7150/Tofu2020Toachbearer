@@ -1,3 +1,5 @@
+void h();
+
 void setup(){
 //blablabla
 }
@@ -5,3 +7,14 @@ void setup(){
 void loop(){
 //Hello World
 }
+
+void k(){
+  h();
+}
+
+void h(){
+  k();
+}
+
+ int main(void)
+ }
