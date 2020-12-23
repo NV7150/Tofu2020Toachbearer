@@ -1,5 +1,3 @@
-#ifndef A
-#define A
 int right_forward;
 int right_back;
 int left_forward;
@@ -15,7 +13,7 @@ int S6;
 int S[6] = [S1, S2, s3, S4, S5, S6]
 int judge[6]
 int sum = 0;
-#endif A
+
 
 
 void setup() {
@@ -41,3 +39,4 @@ void loop() {
   }
   
 }
+//HelloWorld
