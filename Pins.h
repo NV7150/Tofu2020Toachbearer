@@ -7,8 +7,8 @@
 
 #include "Pin.h"
 namespace Pins{
-    const Pin* MOTOR_R = new Pin(1, ANALOG);
-    const Pin** SENSORS = [new Pin(2, ANALOG)];
+    const int PIN_SENSORS = [A0, A2, A3];
 }
+
 
 #endif //TOFU2020TORCHBEARER_PINS_H
