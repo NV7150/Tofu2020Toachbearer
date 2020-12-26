@@ -27,6 +27,7 @@ namespace Pins {
         uint8_t pinNumber;
         //ピンのモード
         PinOption pinOption;
+
     public:
         //コンストラクタ
         Pin(uint8_t pinNumber, PinOption pinOption);

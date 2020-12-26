@@ -1,7 +1,11 @@
+#include "Pins.h"
+using namespace Pins;
+
 void h();
 
 void setup(){
 //blablabla
+    MOTOR_R->getPinNumber();
 }
 
 void loop(){

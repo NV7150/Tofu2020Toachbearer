@@ -3,8 +3,8 @@
 //
 
 #include "Pin.h"
-using LineTraceSTS::Pins::Pin;
-using LineTraceSTS::Pins::PinOption;
+using Pins::Pin;
+using Pins::PinOption;
 
 //初期化時に引数に応じてpinModeを設定
 Pin::Pin(uint8_t pinNumber, PinOption pinOption) : pinNumber(pinNumber), pinOption(pinOption) {
