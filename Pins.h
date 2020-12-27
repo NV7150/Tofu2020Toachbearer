@@ -8,6 +8,10 @@
 #include "Pin.h"
 namespace Pins{
     const int PIN_SENSORS = [A0, A2, A3];
+    const int int right_forward;
+    const int right_back;
+    const int left_forward;
+    const int left_back;
 }
 
 
