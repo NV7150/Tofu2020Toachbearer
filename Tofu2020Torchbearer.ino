@@ -1,14 +1,11 @@
-#include "Pins.h"
-using namespace Pins;
-
-void h();
+#include Car.h
 
 void setup(){
 //blablabla
-    MOTOR_R->getPinNumber();
 }
 
 void loop(){
+  
 //Hello World
 }
 
@@ -22,5 +19,3 @@ void h(){
 
  int main(void)
  }
-
- //コメント
