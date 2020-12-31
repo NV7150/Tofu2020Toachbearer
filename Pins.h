@@ -7,10 +7,11 @@
 
 namespace Pins{
     const int PIN_SENSORS = {A0, A2, A3};
-    const int int right_forward;
-    const int right_back;
-    const int left_forward;
-    const int left_back;
+    const int RIGHT_FORWARD;
+    const int RIGHT_BACK;
+    const int LEFT_FORWARD;
+    const int LEFT_BACK;
+    const int METROPOLITAN_GOVERNMENT;
 }
 
 

@@ -70,7 +70,7 @@
 #include <WiFi.h>
 
 //通信するチャンネル
-const int CHANNEL_SLAVE = 3;
+const int CHANNEL_SLAVE = 1;
 
 // config AP SSID
 void configDeviceAP() {
