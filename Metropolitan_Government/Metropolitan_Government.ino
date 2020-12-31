@@ -11,8 +11,11 @@
 //  delay(1000);
 //}
 
+#include "Pins.h"
+using namespace Pins;
+
 void recieve_data(const uint8_t *mac_addr, const uint8_t *data, int data_len){
-  Serial.println(data[0]);
+  analogWrite(METROPOLITAN_GOVERNMENT, 100);
 
 }
 
@@ -26,8 +29,7 @@ void setup(){
 
 
 void loop(){
- analogWrite(METROPOLITAN_GOVERNMENT, 100);
- }
+}
 
 
 //date: 2020, 28, Dec.
