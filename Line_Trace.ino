@@ -1,5 +1,5 @@
 #include "Pins.h"
-using nameSensor_pinpace PinSensor_pin;
+using namespace Pins;
 int area;
 int msg = "line_trace";
 int black = "";
@@ -8,6 +8,9 @@ const int f;
 const int straight_zone[6] = [0, 2, 4, 6, 12, 14]
 const int performance_zone[4] = [3, 5, 9, 13]
 
+void setup(){
+  Serial.begin(115200);
+}
 void all_black(){
   for (i = 0; i < 6; i ++){
     if (Sensor_color[i] == "B"){
@@ -34,7 +37,7 @@ void half_black(){
   }
 }
 
-void color(col, list){
+int color(col, *list){
   if (col == "white"){
    white = "True"
     for (i = 3; i < sizeof list / sizeof list[0] + 1; i ++){
@@ -105,7 +108,7 @@ void linetrace(){
     int sum = 0;
 
     for (int p = 0; p < 6; p ++){
-      Sensor_pin[p] = analogRead(PIN_Sensor_pinENSensor_pinORSensor_pin[i]);
+      Sensor_pin[p] = analogRead(PIN_SENSORS[i]);
       }
 
     for (int i = 0; i < 6; i ++){
@@ -121,7 +124,7 @@ void linetrace(){
         analogWrite(right_forward, f * sum);
       }else if(Sensor_pinum < 0){
         analogWrite(right_forward, 0);
-        analogWrite(left_forward, f * abSensor_pin(Sensor_pinum));
+        analogWrite(left_forward, f * abs(Sensor_pinum));
       }else{
         analogWrite(right_forward, f);
         analogWrite(left_forward, f);
@@ -150,5 +153,6 @@ void linetrace(){
       area ++;
      }
    }else if
+Serial.println(Sensor_color);
 delay(100);
 }
