@@ -16,7 +16,7 @@ void all_black(){
     if (Sensor_color[i] == "B"){
       int msg = "change";
     }else{
-      int msg = "";
+      int msg = " ";
       break;
     }
   }if (msg == "change"){
@@ -27,9 +27,9 @@ void all_black(){
 void half_black(){
   for (i = 3; i < 6; i ++){
     if (Sensor_color[i] == "B"){
-      int msg = "change";
+      char msg = "change";
     }else{
-      int msg = "";
+      char msg = "";
       break;
     }
   }if (msg == "change"){
@@ -156,3 +156,5 @@ void linetrace(){
 Serial.println(Sensor_color);
 delay(100);
 }
+
+//try

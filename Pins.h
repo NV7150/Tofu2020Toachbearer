@@ -6,12 +6,12 @@
 #define TOFU2020TORCHBEARER_PINS_H
 
 namespace Pins{
-    const int PIN_SENSORS = {A0, A2, A3};
-    const int RIGHT_FORWARD;
-    const int RIGHT_BACK;
-    const int LEFT_FORWARD;
-    const int LEFT_BACK;
-    const int METROPOLITAN_GOVERNMENT;
+    const int PIN_SENSORS[6] = {1, 2, 3, 4, 5, 6};
+    const int RIGHT_FORWARD = 7;
+    const int RIGHT_BACK = 8;
+    const int LEFT_FORWARD = 9;
+    const int LEFT_BACK = 10;
+    const int METROPOLITAN_GOVERNMENT = 11;
 }
 
 

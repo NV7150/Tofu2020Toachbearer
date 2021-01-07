@@ -23,12 +23,14 @@ void setup(){
   Serial.begin(115200);
   setupESPSlave();
   registerReceiveFunc(recieve_data);
+  pinMode(METROPOLITAN_GOVERNMENT, INPUT)
 
 }
 
 
 
 void loop(){
+  digitalWrite(METROPOLITAN_GOVERNMENT,  HIGH)
 }
 
 
